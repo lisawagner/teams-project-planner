@@ -10,7 +10,7 @@ Event Central, a project management tool prototype for teams.
   4.  Firebase - Backend with:
         - Firestore
         - Cloud functions
-        - Authenticaton
+        - Authentication
         - Deployment
 
 ## Content Strategy
