@@ -1,8 +1,8 @@
-# EVENT CENTRAL - Project Management Tool for Teams
+# EVENT CENTRAL - Project Management Tool
 
 Event Central, a project management tool prototype for teams.
 
-## Tech Stack:
+## Tech Stack
 
   1.  React - Frontend
   2.  Redux - State Management
@@ -13,8 +13,8 @@ Event Central, a project management tool prototype for teams.
         - Authenticaton
         - Deplyment
 
-## Content Strategy:
+## Content Strategy
 
-![Site Content Strategy Chart](site-strategy.png "Site Strategy")
+![Site Content Strategy Chart](site-strategy.png "Site Strategy" | width=100)
 
 ### more
