@@ -15,6 +15,6 @@ Event Central, a project management tool prototype for teams.
 
 ## Content Strategy
 
-![Site Content Strategy Chart](site-strategy.png "Site Strategy" | width=100)
+![Site Content Strategy Chart](site-strategy.png "Site Strategy" {width=100% height=auto})
 
 ### more
