@@ -11,7 +11,7 @@ Event Central, a project management tool prototype for teams.
         - Firestore
         - Cloud functions
         - Authenticaton
-        - Deplyment
+        - Deployment
 
 ## Content Strategy
 
