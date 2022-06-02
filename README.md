@@ -17,7 +17,7 @@ Event Central, a project management tool prototype for teams.
 
 ![Site Content Strategy Chart](strategy-sm.png "Site Strategy")
 
-### thunk
+### Thunk
 
 Thunk allows functions to be returned inside redux action creators which can then interact with the database.
 
