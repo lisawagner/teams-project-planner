@@ -6,6 +6,7 @@ import Navbar from './components/layout/Navbar';
 import ProjectDetails from './components/projects/ProjectDetails';
 import Login from './components/auth/Login';
 import SignUp from './components/auth/SignUp';
+import CreateProject from './components/projects/CreateProject';
 
 class App extends Component {
   render() {
@@ -18,7 +19,7 @@ class App extends Component {
             <Route path='/project/:id' component={ProjectDetails} />
             <Route exact path='/login' component={Login} />
             <Route exact path='/sign-up' component={SignUp} />
-
+            <Route exact path='/create-project' component={CreateProject} />
           </Switch>
         </div>
       </BrowserRouter>
