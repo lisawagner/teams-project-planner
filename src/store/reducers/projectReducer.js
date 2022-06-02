@@ -2,21 +2,24 @@ const initialState = {
   projects: [
     {
       id: '1',
-      title: 'eCommerce Fashion Site',
-      details: 'An eCommerce site, featuring advanced menu system and Stripe payments. Frontend will be in ReactJS and backend will be MongoDB, along with Firebase authentication'
+      projectTitle: 'eCommerce Fashion Site',
+      projectDetails: 'An eCommerce site, featuring advanced menu system and Stripe payments. Frontend will be in ReactJS and backend will be MongoDB, along with Firebase authentication'
     },
     {
       id: '2',
-      title: 'Movie Database',
-      details: 'A movie database where users can view details on their favourite movies and actors. React/Typescript frontend with GraphQL calls to an external movie database API.'
+      projectTitle: 'Movie Database',
+      projectDetails: 'A movie database where users can view details on their favourite movies and actors. React/Typescript frontend with GraphQL calls to an external movie database API.'
     },
     {
       id: '3',
-      title: 'Word Game Project',
-      details: 'A Wordle inspired project, fun for the whole family.'
+      projectTitle: 'Word Game Project',
+      projectDetails: 'A Wordle inspired project, fun for the whole family.'
     },
   ]
 }
+// authorFirstName
+// authorLastName
+// createdAt
 
 const projectReducer = (state = initialState, action) => {
   switch (action.type) {

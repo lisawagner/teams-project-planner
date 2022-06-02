@@ -19,8 +19,8 @@ Event Central, a project management tool prototype for teams.
 
 ### thunk
 
-Thunk allows functions to be returned inside the action creators which can then interact with the database.
+Thunk allows functions to be returned inside redux action creators which can then interact with the database.
 
 *NOTES*
 
- - Include the firebase app in the config file export for use in reduxFirestore and reactReduxFirebase or errors may occur
+ - Include the firebase app in the config file export for use in `reduxFirestore` and `reactReduxFirebase` or errors may occur
