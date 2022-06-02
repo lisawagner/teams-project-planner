@@ -8,7 +8,7 @@ import rootReducer from './store/reducers/rootReducer';
 import thunk from 'redux-thunk';
 import { reduxFirestore, getFirestore } from 'redux-firestore';
 import { reactReduxFirebase, getFirebase } from 'react-redux-firebase';
-import { config } from './config/fbConfig'
+import { app } from './config/fbConfig'
 
 // styles
 import './index.css'
@@ -16,8 +16,8 @@ import './index.css'
 const store = createStore(rootReducer,
   compose(
     applyMiddleware(thunk.withExtraArgument({getFirebase, getFirestore})),
-    reduxFirestore(config),
-    reactReduxFirebase(config)
+    reduxFirestore(app),
+    reactReduxFirebase(app)
   )
 )
 
