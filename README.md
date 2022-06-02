@@ -38,4 +38,4 @@ For Reference, Mark Erikson (Redux maintainer) has written some helpful articles
 
 ## Firebase Authentication
 
-![Firebase Auth Diagram](assets/img/strategy-sm.png "Site Authentication")
+![Firebase Auth Diagram](src/assets/img/strategy-sm.png "Site Authentication")
