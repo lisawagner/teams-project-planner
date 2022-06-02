@@ -15,7 +15,7 @@ Event Central, a project management tool prototype for teams.
 
 ## Content Strategy
 
-![Site Content Strategy Chart](strategy-sm.png "Site Strategy")
+![Site Content Strategy Chart](src/assets/img/strategy-sm.png "Site Strategy")
 
 ### Thunk
 
@@ -38,4 +38,4 @@ For Reference, Mark Erikson (Redux maintainer) has written some helpful articles
 
 ## Firebase Authentication
 
-![Firebase Auth Diagram](src/assets/img/strategy-sm.png "Site Authentication")
+![Firebase Auth Diagram](src/assets/img/site-auth.png "Site Authentication")
