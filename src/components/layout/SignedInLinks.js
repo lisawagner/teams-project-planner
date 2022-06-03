@@ -20,11 +20,6 @@ const SignedInLinks = (props) => {
   )
 }
 
-// const mapStateToProps = (state) => {
-//   return {
-//     authError: state.auth.authError
-//   }
-// }
 
 const mapDispatchToProps = (dispatch) => {
   return {
