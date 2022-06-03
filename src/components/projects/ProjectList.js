@@ -12,7 +12,6 @@ const ProjectList = ({ projects }) => {
           </Link>
         )
        })}
-      
     </div>
   )
 }

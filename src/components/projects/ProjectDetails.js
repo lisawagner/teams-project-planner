@@ -5,11 +5,6 @@ import { connect } from 'react-redux'
 import { firestoreConnect } from 'react-redux-firebase'
 import { Redirect } from 'react-router-dom'
 
-
-// authorFirstName
-// authorLastName
-// createdAt
-
 const ProjectDetails = (props) => {
   const { project, auth } = props
   if(!auth.uid) return <Redirect to='/login' />
@@ -29,7 +24,6 @@ const ProjectDetails = (props) => {
       </div>
     </div>
     )
-    
   } else {
     return (
       <div className="container center">

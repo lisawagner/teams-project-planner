@@ -19,6 +19,7 @@ class CreateProject extends Component {
       [e.target.id]: e.target.value
     })
   }
+  
   render() {
     const { auth } = this.props;
     if(!auth.uid) return <Redirect to='/login' />
