@@ -9,6 +9,8 @@ const ProjectDetails = (props) => {
   const { project, auth } = props
   if(!auth.uid) return <Redirect to='/login' />
 
+  console.log(props.match.params.id);
+
   if (project) {
     return (
       <div className="container section project-details">

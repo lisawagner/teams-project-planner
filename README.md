@@ -43,3 +43,5 @@ For Reference, Mark Erikson (Redux maintainer) has written some helpful articles
 ## Notes
 
 - Added moment.js for improved date formatting
+- Implemented basic security rules on Firebase Firestore
+- Intended to set up Cloud functions, however Firebase no longer has a free tier for their Cloud functions.

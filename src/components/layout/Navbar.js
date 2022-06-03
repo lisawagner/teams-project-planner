@@ -9,7 +9,7 @@ import SignedOutLinks from './SignedOutLinks'
 
 const Navbar = (props) => {
   const { auth, profile } = props
-  console.log(auth.uid)
+  // console.log(auth.uid)
 
   const links = auth.uid ? <SignedInLinks profile={profile} /> : <SignedOutLinks />
 
@@ -18,8 +18,6 @@ const Navbar = (props) => {
       <div className="container">
         <Link to='/'className='brand-logo'>EventCentral</Link>
         {links}
-        {/* <SignedInLinks />
-        <SignedOutLinks /> */}
       </div>
     </nav>
   )
