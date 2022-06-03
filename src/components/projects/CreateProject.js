@@ -12,6 +12,7 @@ class CreateProject extends Component {
     e.preventDefault()
     console.log(this.state);
     this.props.createProject(this.state)
+    this.props.history.push('/')
   }
   handleChange = (e) => {
     this.setState({
@@ -20,7 +21,7 @@ class CreateProject extends Component {
   }
   render() {
     const { auth } = this.props;
-    if(!auth) return <Redirect to='/login' />
+    if(!auth.uid) return <Redirect to='/login' />
 
     return (
       <div className="container">
@@ -46,7 +47,7 @@ class CreateProject extends Component {
 const mapStateToProps = (state) => {
   // console.log(state);
   return {
-    auth: state.firestore.auth
+    auth: state.firebase.auth
   }
 }
 
