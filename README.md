@@ -1,6 +1,6 @@
 # EVENT CENTRAL - Project Management Tool
 
-Event Central, a project management tool prototype for teams.
+Event Central, a project management tool prototype.
 
 ## Tech Stack
 
@@ -9,9 +9,7 @@ Event Central, a project management tool prototype for teams.
   3.  Thunk - Middleware for asynchronous functions
   4.  Firebase - Backend with:
         - Firestore
-        - Cloud functions
         - Authentication
-        - Deployment
 
 ## Content Strategy
 
